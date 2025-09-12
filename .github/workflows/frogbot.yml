@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      - name: Install dependencies (legacy mode for Frogbot)
+        run: npm install --ignore-scripts --legacy-peer-deps
       - name: Run Frogbot
         uses: jfrog/frogbot@v2
         with:
