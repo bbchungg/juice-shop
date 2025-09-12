@@ -1,0 +1,15 @@
+name: Frogbot Scan
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  frogbot-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Frogbot
+        uses: jfrog/frogbot@v2
+        with:
+          jfrog-url: "https://soleng.jfrog.io"
+          jfrog-token: ${{ secrets.JF_ACCESS_TOKEN }}
