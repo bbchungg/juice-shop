@@ -16,4 +16,5 @@ jobs:
           version: latest
         env:
           JF_URL: https://soleng.jfrog.io            # your JFrog URL (no trailing slash)
-          JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}  # your JFrog access token
+          JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}
+          JF_GIT_TOKEN: ${{ secrets.JF_GIT_TOKEN }}
