@@ -1,7 +1,7 @@
 # Solutions
 
 Did you write a guide specifically on hacking OWASP Juice Shop or record a hacking session of your own? Add it to this
-file and open a PR! The same goes for any scripts or automated tools you made for making Juice Shop easier to hack!
+file and open a PR! The same goes for any scripts or automated tools you made for making Juice Shop easier to hack!!
 
 > :godmode: **Everything** mentioned on this specific page is considered
 > to contain _spoilers for entire challenge solutions_ so the entries
@@ -17,9 +17,11 @@ file and open a PR! The same goes for any scripts or automated tools you made fo
 
 ## Table of contents
 
-* [Hacking Videos](#hacking-videos)
-* [Walkthroughs](#walkthroughs)
-* [Scripts & Tools](#scripts--tools)
+- [Solutions](#solutions)
+  - [Table of contents](#table-of-contents)
+  - [Hacking Videos](#hacking-videos)
+  - [Walkthroughs](#walkthroughs)
+  - [Scripts \& Tools](#scripts--tools)
 
 ## Hacking Videos
 
